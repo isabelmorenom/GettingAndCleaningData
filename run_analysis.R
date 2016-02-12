@@ -11,10 +11,10 @@
 packages <- c("data.table", "reshape2","plyr")
 sapply(packages, require, character.only = TRUE, quietly = TRUE)
 
-#Set path
+#Get path
 
-path<-"C:/Users/Isabel/gitrepos/GettingAndCleaningData"
-setwd(path)
+path<-getwd()
+
 
 #Get data
 
@@ -137,7 +137,7 @@ head(dfmean[,1:5],12)
 
 # Write to a file
 
-write.table(dfmean, file = "tidyMeans.txt")
+write.table(dfmean, file = "tidyMeans.txt",row.name=FALSE)
 
 
 ###########################################################################

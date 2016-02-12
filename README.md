@@ -42,7 +42,7 @@ You should create one R script called run_analysis.R that does the following.
 
 # SCRIPTS Description (run_analysis.R)
 
-The following steps describe how the script works.For more details, see scriptProgress.Rmd and run_analysis.R
+The following steps describe how the script works.For more details, see run_analysis.R
 
 ### DATA SOURCE
 

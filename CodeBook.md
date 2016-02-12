@@ -114,4 +114,4 @@ These signals were used to estimate variables of the feature vector for each pat
 
 # TRANSFORMATION.
 
-Look at Readme.md, scriptProgress.Rmd and run_analysis.R
+Look at Readme.md and run_analysis.R
